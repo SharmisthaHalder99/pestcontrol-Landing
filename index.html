@@ -11,11 +11,18 @@
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="/">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
     <nav class="nav_bar">
         <div class="logo">
             <h3>Anita pest control</h3>
         </div>
-        <div class="mobile_menu">
+        <div class="mobile_menu" onclick="openNav()">
             <img src="./asset/mobile_menu.svg">
         </div>
         <div class="nav_ele">
@@ -24,6 +31,7 @@
             <a href="#service">Service</a>
             <a href="#contact">Contact</a>
         </div>
+
     </nav>
     <div class="hero_wrapper">
         <div class="hero_element">
@@ -127,5 +135,15 @@
         </div>
 
     </footer>
+    <script>
+        function openNav() {
+          document.getElementById("mySidepanel").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidepanel").style.width = "0";
+        }
+        </script>
 </body>
+
 </html>
