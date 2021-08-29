@@ -28,7 +28,7 @@ body{
 
     color: #FFFFFF;
 }
-.hero_wrapper button{
+.hero_wrapper a{
     background: #FFFFFF;
     border: none;
     padding: 20px 40px;
@@ -40,6 +40,9 @@ body{
 
     color: #000000;
     margin-top: 3vh;
+    display: block;
+    width: fit-content;
+    text-decoration: none;
 }
 .hero_element{
     padding-top: 35vh;
@@ -348,7 +351,7 @@ footer .logo{
         line-height: 21px;
     }
 
-    .hero_element button{
+    .hero_element a{
         padding: 18px 18px;
         font-size: 14px;
         line-height: 19px;
