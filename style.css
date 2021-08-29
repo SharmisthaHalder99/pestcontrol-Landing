@@ -145,13 +145,13 @@ body{
     margin-bottom: 50px;
 }
 .location span{
-    font-family: Roboto;
+    font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 24px;
-
-    color: #000000;
+    line-height: 27px;
+    
+    color: #000000;;
     margin-left: 20px;
     align-items: center;
    
@@ -160,7 +160,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 30%;
+    width: 40%;
     margin: auto;
     
 }
@@ -173,6 +173,7 @@ body{
 
     color: #000000;
     margin-bottom: 5vh;
+    margin-top: 0;
 }
 .contact_wrapper{
     display: flex;
@@ -291,9 +292,34 @@ footer .logo{
     color: #FFFFFF;
 
 }
+.follow{
+    display: flex;
+    align-items: center;
+    
+}
+.follow img{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+.follow h3{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #000000;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .mobile_menu{
     display: none;
 }
+
 
 @media screen and (max-width:767px){
     .hero_wrapper{
@@ -395,7 +421,13 @@ footer .logo{
     .location span{
         font-size: 14px;
     }
+    .follow h3{
+        font-size: 18px;
+    }
     .location img{
+        width: 25px;
+    }
+    .follow img{
         width: 25px;
     }
     footer{
